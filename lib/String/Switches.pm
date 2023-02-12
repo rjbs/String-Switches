@@ -2,6 +2,7 @@ use v5.20.0;
 use warnings;
 
 package String::Switches;
+# ABSTRACT: functions for parsing /switches and similarly constructed strings
 
 use experimental qw( signatures );
 
