@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.020000;
+use 5.032000;
 
 use ExtUtils::MakeMaker 6.78;
 
@@ -14,7 +14,7 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "String-Switches",
   "LICENSE" => "perl",
-  "MIN_PERL_VERSION" => "5.020000",
+  "MIN_PERL_VERSION" => "5.032000",
   "NAME" => "String::Switches",
   "PREREQ_PM" => {
     "Carp" => 0,
