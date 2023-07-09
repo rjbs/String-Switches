@@ -25,7 +25,6 @@ use Sub::Exporter -setup => [ qw( parse_switches canonicalize_names) ];
 
 =cut
 
-
 # Even a quoted string can't contain control characters.  Get real.
 our $qstring    = qr{[“"]( (?: \\["“”] | [^\pC"“”] )+ )[”"]}x;
 
